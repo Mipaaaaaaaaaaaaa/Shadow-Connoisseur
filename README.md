@@ -1,2 +1,13 @@
-# Shadow-Connoisseur
-A simple 3d game developed using godot engine. Move a model under fixed lighting, so that the shadow of the model matches the provided image. 使用godot引擎制作的简单3D游戏，在固定的灯光下挪动模型，使得模型的影子和给出的图片一致的游戏。
+# Shadow-Connoisseur 影之鉴赏家
+
+## 游戏流程
+1. 给出一个题目的影子；
+2. 玩家在三个模型中选择一个模型操作；
+3. 把这个模型放到中央台上，通过改变模型的角度使得投影与题目图形一致；
+4. 在玩家确定一致之后点击完成按钮，程序给出相似度判定，90%以上即为过关；
+5. 重复流程，可以是固定5/6道题目，让玩家在更短时间内通关；也可以是挑战模式，玩家想在某个固定的时间内尝试做更多的题目。
+
+
+## 开发日志
+2024/5/5 创建策划文档。
+2024/5/6 新建项目工程，搭建白模场景。
